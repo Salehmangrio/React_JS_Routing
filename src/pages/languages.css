@@ -1,0 +1,40 @@
+.main{
+    display: grid;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    grid-auto-flow: column;
+    scrollbar-width: none;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    gap:1.3rem;
+    padding: 10px;
+}
+
+.lang{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 2px 2px 5px 3px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lang button{
+    height: 35px;
+    width: 140px;
+    background-color: red;
+    box-shadow: 0 0 10px red;
+    border: none;
+}
+.lang button:hover{
+    box-shadow: 0 0 40px red;
+}
+.lang button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+h1{
+    color: red;
+}

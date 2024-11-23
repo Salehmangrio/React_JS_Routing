@@ -1,0 +1,16 @@
+.nav-bar nav{
+  display: flex;
+  height: 70px;
+  justify-content: space-around;
+  font-weight: 800; 
+}
+.nav-bar nav a{
+  text-decoration: none;
+}
+
+.active-link{
+  color: red;
+}
+.inactive-link{
+  color: blue;
+}
